@@ -1,0 +1,69 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eef2f3;
+    color: #333;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 25px;
+    border: 2px solid #333; /* Sharp outer border for the main box */
+    box-shadow: 5px 5px 0px rgba(0,0,0,0.2); /* Sharp "hard" shadow, not blurry */
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #000; /* Thick, sharp underline */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* --- Sharp Table Styling --- */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Removes gaps between borders */
+    margin-bottom: 25px;
+    background-color: #fff;
+    border: 2px solid #000; /* Thick outer border for table */
+}
+
+th, td {
+    border: 1px solid #000; /* distinct black borders for all cells */
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #333; /* Dark header */
+    color: #fff; /* White text */
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 40%;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Slight striping for readability */
+}
+
+/* --- Button Styling --- */
+input[type="submit"], .btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #000;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+input[type="submit"]:hover, .btn:hover {
+    background-color: #fff;
+    color: #000;
+}

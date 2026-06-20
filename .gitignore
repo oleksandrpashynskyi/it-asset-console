@@ -1,0 +1,25 @@
+# Build output
+/build/
+/dist/
+
+# NetBeans private / machine-specific config
+/nbproject/private/
+nbproject/private/
+
+# Compiled class / archive files
+*.class
+*.war
+*.jar
+*.ear
+
+# Logs
+*.log
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+*.iml
+.vscode/
